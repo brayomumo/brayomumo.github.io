@@ -45,16 +45,14 @@ ul{
     line-height: 50%;
     font-size: 20px;
     height: 500px;
+    margin: auto;
 }
 .content{
     padding:10px;
+    line-height: 20px;
 }
 .shida{
     line-height: 20px;
-}
-.education{
-    text-align: left;
-    line-height: 50%;
 }
 .skills{
     line-height: 50%;
@@ -62,8 +60,7 @@ ul{
 #contact{
     width: 1200px;
     margin: auto;
-    border: 3px solid #73AD21;
-    height: 700px;;
+    height: 500px;;
 }
 .row {
     margin: 8px -16px;
