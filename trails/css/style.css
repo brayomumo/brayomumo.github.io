@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+body{
+    background-image: url(sara.jpg); 
+    background-size: cover; 
+    opacity: 100; 
+    width: 100%;
+    height: 80%;
+    letter-spacing: initial;
+}
+.motto{
+    font-family: fantasy;
+    text-align: center;
+    text-decoration-color: darkblue;
+}
+.intro{
+    line-height: 26pt;
+    background-color: beige;
+}
+img{
+    display: inline-flexbox;
+    opacity: 1.5;
+    width: 500px;
+    height: 250px;
+        
+}
+.ids{
+    background-color: blanchedalmond;
+}
