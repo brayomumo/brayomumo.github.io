@@ -17,8 +17,7 @@
     padding: 0;
     position: fixed;
     top: 0;
-    width: 100%;
-    
+    width: 100%;    
 }
 li {
     display: inline;
@@ -26,7 +25,10 @@ li {
 li {
     float: right;
 }
-  
+a:hover{
+    color: hsl(214, 7%, 54%);
+    background: #010b16
+}  
 a{
     display: block;
     padding: 8px;
@@ -39,3 +41,43 @@ ul{
 .profession{
     font-family: sans-serif;
 }
+#About{
+    line-height: 50%;
+    font-size: 20px;
+    height: 500px;
+}
+.content{
+    padding:10px;
+}
+.shida{
+    line-height: 20px;
+}
+.education{
+    text-align: left;
+    line-height: 50%;
+}
+.skills{
+    line-height: 50%;
+}
+#contact{
+    width: 1200px;
+    margin: auto;
+    border: 3px solid #73AD21;
+    height: 700px;;
+}
+.row {
+    margin: 8px -16px;
+  }
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  .column {
+    float: left;
+    width: 25%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

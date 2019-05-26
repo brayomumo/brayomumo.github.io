@@ -1,0 +1,12 @@
+.main{
+    background-image: linear-gradient(black, white);
+}
+.container{
+    text-align: left;
+    background-color: darkgray;
+    color: white;
+}
+h2{
+    font-size: 20px;
+    color: black;
+}
