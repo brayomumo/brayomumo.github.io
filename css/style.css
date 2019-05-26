@@ -14,22 +14,28 @@ body{
     font-size: 50px;
     color: white;
 }
+.logo{
+    position: absolute;
+  top: 8px;
+  left: 16px;
+ }
 .navbar ul {
     list-style-type: none;
+    justify-content:space-around;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     position: fixed;
-    top: 0;
+   top:0;
     width: 100%;    
 }
-li {
+nav li {
     display: inline;
 }
-li {
+ nav li {
     float: right;
 }
 a:hover{
-    color: hsl(214, 7%, 54%);
+    color: rgb(9, 10, 10);
     background: #010b16
 }  
 a{
@@ -43,6 +49,13 @@ ul{
 }
 .profession{
     font-family: sans-serif;
+}
+.bottom-left{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 100%;
+    left: 10%;
 }
 #About{
     line-height: 50%;
