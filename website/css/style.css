@@ -1,0 +1,24 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+h2{
+    color:green;
+    font-style: italic;
+    text-align: center;
+}
+p{
+    font-family: sans-serif;
+
+}
+ul{
+    line-height: 40px;
+}
+body{
+    min-height: 100vh;
+    line-height:normal;
+    background-image: url("mansions.jpg");
+    background-position: center center;
+    background-size: 100% 100%;   
+    padding: 10px; 
+}

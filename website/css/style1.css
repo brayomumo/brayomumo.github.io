@@ -1,0 +1,9 @@
+h1{
+    color: blue;
+}
+body{
+    background-image: url("cars.jpg");
+    background-position: center center;
+    background-size: 100% 100%;   
+    padding: 10px; 
+}
