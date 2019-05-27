@@ -7,7 +7,7 @@ This is a website which contains information about me and some of the projects I
 * install Atom/Visual studio code
 * git init
 * git clone https://Github.com/brayomumo/portfolio
-*  Open the folder where the cloned repository is saved in a simple
+*  Open the folder where the cloned repository is saved 
 ## Technologies Used
  * HTML – used to create the website
  * Css – used to style the web page
