@@ -1,79 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cyborg/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-mtS696VnV9qeIoC8w/PrPoRzJ5gwydRVn0oQ9b+RJOPxE1Z1jXuuJcyeNxvNZhdx" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!-- Compiled and minified JavaScript -->
+
+    <link href="css/materialize.min.css" rel="stylesheet" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css">
+    <link href="css/style.css" rel="stylesheet">
     <title>Portfolio</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-    <nav>
-      <div class="navbar">
-        <ul>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#About">About</a></li>
-            <li class="import"><a href="#Home">Home</a></li>
-        </ul>
-    </nav>
-  </div>
-    <div id="Home">
-      <div class="background">
-       <img src="future.jpg" alt="coding" style="width: 100%">
-       <div class="intro">Hello! <br>Am Brian Paul <br> <span class="profession">A web developer</span></div>
-       <div class="bottom-left">Do you have a project?? <a href="#contact">Click here</a> to talk to me</div>
-       <div class="logo">
-            <img class="logo-img" src="logo.png" width="150" height="150" ALT="align box" ALIGN=CENTER>
-        </div>
-      </div>
+    <div class="wrapper">
+        <nav class="hide-on-small-only">
+            <ul class="side-nav fixed section table-of-contents">
+                <li class="logo">
+                    <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+                        class="brand-logo teal-text">
+                        <img class="logo-img" src="css/image/logo.png" width="120" height="120" ALT="align box">
+                        <!-- <h1 style="color: rgb(24, 1, 1)">
+                            Brian Mumo<span class="brown-text light">Full Stack Developer</span>
+                        </h1> -->
+                    </a>
+                </li>
+                <li class="bold">
+                    <a aria-label="Navigate to the About section" href="#about"
+                        class="waves-effect waves-dark teal-text"><i class="fa fa-user"
+                            style="font-size: 30px;"></i><span>About</span></a>
+                </li>
+                <li class="bold">
+                    <a aria-label="Navigate to the Experience section" href="#experience"
+                        class="waves-effect waves-dark cyan-text active"><i class="fa fa-anchor"
+                            style="font-size: 25px;"></i><span>Experience</span></a>
+                </li>
+                <li class="bold">
+                    <a aria-label="Navigate to the Projects section" href="#projects"
+                        class="waves-effect waves-dark indigo-text"><i class="fa fa-tasks"
+                            style="font-size: 30px;"></i><span>Projects</span></a>
+                </li>
+                <li class="bold">
+                    <a aria-label="Navigate to the Skills section" href="#skills"
+                        class="waves-effect waves-dark purple-text"><i class="fa fa-street-view"
+                            style="font-size: 30px;"></i><span>Skills</span></a>
+                </li>
+                <li class="bold">
+                    <a aria-label="Navigate to the Education section" href="#education"
+                        class="waves-effect waves-dark orange-text"><i class="fa fa-graduation-cap"
+                            style="font-size: 30px;"></i><span>Education</span></a>
+                </li>
+                <li class="bold">
+                    <a aria-label="Navigate to the Contact section" href="#contact"
+                        class="waves-effect waves-dark brown-text"><i class="fa fa-tty"
+                            style="font-size: 30px;"></i><span>Contact</span></a>
+                </li>
+            </ul>
+        </nav>
+
     </div>
-    <div id="About" class="row">
-        <div class="column">
-            <div class="shida">
-                <h1>Brian Paul</h1>
-                <h2>Web Developer</h2>
-                <p> A University of Nairobi student curently  pursuing a bachelor's degree in Computer Science and an aspiring goal-driven web developer</p>        
-                <h3>EDUCATION</h3>
-                <p class="edu">2014-2017   St Charles Lwanga school</p>
-                <p class="edu">2018-present  University of Nairobi</p>
-                <h3>skills</h3>
-                <p>Web Development</p>
+    <main>
+        <section id="intro" class="section scrollspy full-height">
+            <div class="overlay"></div>
+            <div class="container">
+                <h2>
+                    Making a difference
+                </h2>
             </div>
-        </div>
-        <div class="column">
-            <div class="content">
-                <img src="agency.png" alt="passengers" style="width:100%">
-                <h3>My Work</h3>
-                <p><span class="shida">training to explore how to add images in a website.</span></p>
-                <a href="trails/training.html">Click here to view</a>
+        </section>
+        <section id="about" class="section scrollspy">
+            <h3 class="page-title white-text teal">About</h3>
+            <div class="container flow-text">
+                <h3> About Me </h3>
             </div>
-        </div>
-        <div class="column">
-            <div class="content">
-                <img src="first-webpage.png" alt="website" style="width:100%">
-                <h3>My Work</h3>
-                <p><span class="shida">A webpage i created while learning html.</span></p>
-                <a href="website/first-website.html">click here to view</a>
+        </section>
+        <section id="experience" class="section scrollspy">
+            <h3 class="page-title white-text teal">Experience</h3>
+            <div class="container">
+                <h3> Experience
+
+                </h3>
             </div>
-        </div>  
-    </div>
-    <div id="contact">
-        <div class="row">
-            <div class="column">
-                <h2><img src="https://img.icons8.com/color/48/000000/gmail.png"> email</h2> brayomumo5@gmail.com
+        </section>
+        <section id="projects" class="section scrollspy">
+            <h3 class="page-title white-text teal">Projects</h3>
+            <div class="container">
+
+                <h3> Projects here</h3>
             </div>
-            <div class="column">
-                <h2><img src="https://img.icons8.com/color/48/000000/twitter.png"> twitter</h2> @brayo-mull
+        </section>
+        <section id="skills" class="section scrollspy">
+            <h3 class="page-title white-text teal">Skills</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-content">
+                                    <img alt="" src="/css/image/html5.png" class="responsive-img" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <h4 class="brown-text light">CSS</h4>
+                                <div class="row text-center">
+                                    <div class="col s4 m2">
+                                        <img alt="" src="/css/image/css-logo.png" class="responsive-img" />CSS3
+                                    </div>
+                                    <div class="col s4 m2">
+                                        <img alt="" src="/css/image/bootstrap-logo.png" class="responsive-img" />Bootstrap
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <h4 class="brown-text light">Javascript</h4>
+                                <div class="row text-center">
+                                    <div class="col s4 m2">
+                                        <img alt="" src="/css/image/JavaScript-logo.png" class="responsive-img" />Javascript
+                                    </div>
+                                    <div class="col s4 m2">
+                                        <img alt="" src="/css/image/jquey.png" class="responsive-img" />jQuery
+                                    </div>
+                                    <div class="col s4 m2">
+                                        <img alt="" src="/css/image/angular-logo.png" class="responsive-img" />Angular
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="row text-center">
+                                    <div class="col s4 m2">
+                                        <img alt="" src="/css/image/flask-logo.png" class="responsive-img" />Flask
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="row text-center">
+
+                                    <div class="col s4 m2">
+                                        <img alt="" src="/css/image/postgres.png" class="responsive-img" />PostgreSQL
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="row text-center">
+
+                                    <div class="col s4 m2">
+                                        <img alt="" src="/css/image/django-logo.png" class="responsive-img" />Django
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-content">
+                                <img alt="" src="/css/image/github.png" class="responsive-img" />Github
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-content">
+                                <img alt="" src="/css/image/heroku.jpeg" class="responsive-img" />Heroku
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+               
+                
             </div>
-            <div class="column">
-                <h2><img src="phone.png"> phone</h2>
-                <p>0746743772</p>
-                <p>0771362711</p>
+            <div class="card">
+                <div class="card-content">
+                    <h4 class="brown-text light">Other</h4>
+                    <div class="row text-center">
+                        <div class="col s4 m2">
+                            
+                        </div>
+                        <div class="col s4 m2">
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="column">
-                <p><img src="https://img.icons8.com/color/48/000000/instagram-new.png"><br>brayo-mumo</p>
             </div>
-        </div>
-    </div>
+        </section>
+        <section id="education" class="section scrollspy">
+            <h3 class="page-title white-text teal">Education</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="card">
+                            <div class="card-content">
+                                <p>
+                                    <span class="card-title"><a href="https://www.uonbi.ac.ke/"
+                                            class="teal-text hoverline">University of Nairobi</a></span>
+                                </p>
+                                <p class="brown-text">Nairobi, Kenya</p>
+                                <ul>
+                                    <li>BSc. Computer Science</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="card">
+                            <div class="card-content">
+                                <p>
+                                    <span class="card-title"><a href="https://www.moringaschool.com/"
+                                            class="teal-text hoverline">Moringa School</a></span>
+                                </p>
+                                <p class="brown-text">Nairobi, Kenya</p>
+                                <ul>
+                                    <li>Full Stack Web Development</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section scrollspy full-height">
+            <h3 class="page-title white-text teal">Contact</h3>
+            <div class="container">
+                <p>
+                    <a aria-label="Email Brian" href="mailto:brayomumo5@gmail.com" data-position="top"
+                        data-tooltip="Email Brian"
+                        class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                            class="fa fa-envelope"></i><a aria-label="Email Brian" href="mailto:brayomumo5@gmail.com"
+                            class="hoverline">brayomumo5@gmail.com</a></a>
+                </p>
+                <p>
+                    <a aria-label="View Brian on GitHub" href="http://github.com/brayomumo" target="_blank"
+                        data-position="top" data-tooltip="View Brian on GitHub"
+                        class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                            class="fa fa-github"></i><a aria-label="Brian on Github" href="http://github.com/brayomumo"
+                            class="hoverline">github.com/brayomumo</a></a>
+                </p>
+                <p>
+                    <a aria-label="View Brian on LinkedIn" href="https://www.linkedin.com/in/brian-mumo-25909418a"
+                        target="_blank" data-position="top" data-tooltip="View Brian on LinkedIn"
+                        class="btn-floating btn-large waves-effect waves-light brown tooltipped"><i
+                            class="fa fa-linkedin"></i><a aria-label="Brian  on LinkedIn"
+                            href="https://www.linkedin.com/in/brian-mumo-25909418a"
+                            class="hoverline">linkedin.com/in/brian-mumo</a></a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+
+    <script>
+        let analyticsId
+
+        // If analytics id has not been manually defined
+        if (!analyticsId) {
+            // Initialize GA with Netlify env var
+            getAnalyticsIdFromNetlify().then(initGoogleAnalytics, console.log)
+        } else {
+            // Initialize GA with local var
+            initGoogleAnalytics(analyticsId)
+        }
+
+        // -------------------------------------------------
+        // Helper Functions
+        // --------------------------------------------------
+
+        function handleError(error) {
+            console.log("error", error)
+        }
+
+        function getEnvVar(response) {
+            // If the request was successful, return the response text.
+            if (response.ok) return response.text()
+        }
+
+        // Fetch environment variable via Netlify Lambda Function
+        function getAnalyticsIdFromNetlify() {
+            return fetch("/.netlify/functions/env_vars")
+                .then(getEnvVar, handleError)
+                .catch(handleError)
+        }
+
+        // Set Up Google Analytics
+        function initGoogleAnalytics(analyticsId) {
+            if (analyticsId) {
+                // Inject the Google Analytics Tag Manager script into the DOM
+                analyticsUrl =
+                    "https://www.googletagmanager.com/gtag/js?id=UA-" + analyticsId
+                var ref = document.getElementsByTagName("script")[0]
+                var script = document.createElement("script")
+                script.src = analyticsUrl
+                ref.parentNode.insertBefore(script, ref)
+
+                // Intitlize Google Analytics
+                window.dataLayer = window.dataLayer || []
+
+                function gtag() {
+                    dataLayer.push(arguments)
+                }
+                gtag("js", new Date())
+                gtag("config", "UA-" + analyticsId)
+            }
+        }
+    </script>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+        // Materialize - Initializers
+        $(document).ready(function () {
+            $(".scrollspy").scrollSpy()
+            // Initialize collapse button
+            $(".button-collapse").sideNav({
+                menuWidth: 190, // Default is 240
+                edge: "left", // Choose the horizontal origin
+                closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            })
+        })
+    </script>
+
 </body>
+
 </html>
