@@ -154,8 +154,6 @@ body {
     width: 100%;
   }
   .waves-effect.waves-blue .waves-ripple {
-    /* The alpha value allows the text and background color
-     of the button to still show through. */
     background-color: rgba(33, 150, 243, 0.2);
   }
   .card {
@@ -370,6 +368,12 @@ body {
       font-size: 22px;
       display: block;
     }
+    .projects img{
+      width: 80%;
+    }
+    \
+   
+    
     .name-title span {
       display: block;
       font-size: 14px;
