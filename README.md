@@ -14,10 +14,7 @@ This is a website which contains information about me and some of the projects I
 ## Support and contact details
 In case of any questions, comments or interest in doing a project together, please contact me using any of the following:
 * Email: brayomumo5@gmail.com
-* Twitter: brayo-mull
-* Instagram: brayo_mumo
-* Tel- +254 746743772
-		+254 771362711
+
 ### License
 Copyright (c) {2019} **Brian Mumo Paul**
   
