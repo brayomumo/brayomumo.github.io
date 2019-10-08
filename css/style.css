@@ -220,6 +220,9 @@ body {
   .card .card-title {
     font-size: 24px;
   }
+  .about{
+    color: whitesmoke
+  }
   .card .card-content .card-title {
     line-height: 2.5rem;
   }
