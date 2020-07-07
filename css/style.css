@@ -31,30 +31,46 @@ body {
     top: 5px;
   }
   main {
-    background: url(../../assets/img/bg.png) repeat;
     padding-left: 190px;
   }
-  dl {
-    margin-top: 0.5rem;
-  }
-  dd {
-    display: inline-block;
-    font-weight: 500;
-    margin-left: 0;
-  }
-  dt {
-    display: inline-block;
-    margin-left: 0.5rem;
-  }
-  #blog a {
-    font-size: 1.5rem;
-    padding: 0;
-    text-decoration: underline;
-  }
-  #blog a:hover {
-    background: #009688;
-    color: white;
-  }
+  #code {
+    /*  margin-top:150px;*/
+      border-radius: 5px;
+      width:750px;
+      margin: 0 auto;
+      padding-top:15px;
+      font-size:30px;
+      /* background: #ccc; */
+      height: 700px;
+      font-family: 'Monaco', 'Courier New';
+      text-align: left;
+      font-size:13px;
+      color: #fafafa;
+    }
+    #console {
+      width:670px;
+      padding: 40px;
+      height: 620px;
+      margin:0 auto;
+      background: #383737;
+    }
+    
+    span.answer {
+      color:#ccc;
+    }
+    
+    #about p {
+      text-align: center;
+      padding-top: 60px;
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 0.3em;
+      font-weight: 700;
+      color: #fafafa;
+      font-size: 11px;
+      text-transform: uppercase;
+    
+    }
+  /*  */
   ul.side-nav {
     width: 190px;
   }
@@ -122,7 +138,7 @@ body {
     height: 100vh;
   }
   #intro.section {
-    background: url(../../assets/img/andrew-borstein-2a.jpg) no-repeat top
+    background: url(../image/IMG_20200414_214508.jpg) no-repeat 
       center/cover;
     position: relative;
   }
@@ -373,9 +389,7 @@ body {
     }
     .projects img{
       width: 80%;
-    }
-    \
-   
+    }   
     
     .name-title span {
       display: block;
