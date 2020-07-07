@@ -6,7 +6,7 @@ This is a website which contains information about me and some of the projects I
 ## Setup/Installation Requirements
 * install Atom/Visual studio code
 * git init
-* git clone https://Github.com/brayomumo/portfolio
+* git clone https://brayomumo.github.io/
 *  Open the folder where the cloned repository is saved 
 ## Technologies Used
  * HTML – used to create the website
