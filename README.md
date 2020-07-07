@@ -3,11 +3,9 @@
 #### By **Brian Mumo Paul**
 ## Description
 This is a website which contains information about me and some of the projects I have done so far. It also contains information on how to contact me in case of any questions or interest in doing a project with me.
-## Setup/Installation Requirements
-* install Atom/Visual studio code
-* git init
-* git clone https://brayomumo.github.io/
-*  Open the folder where the cloned repository is saved 
+## Live link
+* https://brayomumo.github.io/
+
 ## Technologies Used
  * HTML – used to create the website
  * Css – used to style the web page
