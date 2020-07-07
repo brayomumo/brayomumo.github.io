@@ -34,13 +34,10 @@ body {
     padding-left: 190px;
   }
   #code {
-    /*  margin-top:150px;*/
       border-radius: 5px;
-      width:750px;
       margin: 0 auto;
       padding-top:15px;
       font-size:30px;
-      /* background: #ccc; */
       height: 700px;
       font-family: 'Monaco', 'Courier New';
       text-align: left;
@@ -48,7 +45,6 @@ body {
       color: #fafafa;
     }
     #console {
-      width:670px;
       padding: 40px;
       height: 620px;
       margin:0 auto;
@@ -138,7 +134,7 @@ body {
     height: 100vh;
   }
   #intro.section {
-    background: url(../image/IMG_20200414_214508.jpg) no-repeat 
+    background: url(../image/IMG.jpg) no-repeat top 
       center/cover;
     position: relative;
   }
